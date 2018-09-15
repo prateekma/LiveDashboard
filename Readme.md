@@ -23,3 +23,5 @@ Your path variables should also be provided through the "Path X" and "Path Y" pr
 
 Make sure you change the IP from 10.51.90.2 in `livedashboard.py` to the IP address of your robot. If there are errors, make sure you install all dependencies through `pip`.
 
+To run the dashboard, run `python livedashboard.py` in a terminal window.
+
