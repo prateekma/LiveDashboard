@@ -20,6 +20,7 @@ instance.getEntry("Robot X").setDouble(123)
 ```
 
 Your path variables should also be provided through the "Path X" and "Path Y" properties.
+To reset the dashboard, set the "Reset" boolean property to `true` once. It will automatically be set to `false` after the command is received. 
 
 Make sure you change the IP from 10.51.90.2 in `livedashboard.py` to the IP address of your robot. If there are errors, make sure you install all dependencies through `pip`.
 
